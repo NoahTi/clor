@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+Clor | Rate | Chess
+</title>
+</head>
+<body>
+<div id="navbar">
+  <a href="https://noahti.github.io/clor">Home</a>
+  <a href="https://noahti.github.io/clor/companies">Companies</a>
+  <a class="active" href="https://noahti.github.io/rate">Rate</a>
+</div>
+<div class="content">
+
+<h1><center>Clor Rate</center></h1>
+<table style="width: 100%">
+<tr>
+<th>Rank</th>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Chess.com Bullet Rating</th>
+<th>Chess.com Blitz Rating</th>
+<th>Chess.com Daily Rating</th>
+<th>ChessKid Rating</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Noah</td>
+<td>Tillinghast</td>
+<td>1523</td>
+<td>1673</td>
+<td>1343</td>
+<td>1720</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Luke</td>
+<td>Kuruvilla</td>
+<td>1295</td>
+<td>1394</td>
+<td>1392</td>
+<td>1495</td>
+</tr>
+</table>
+</div>
+<script language="Javascript">
+alert('Play at TKGames at https://noahti.github.io/tkgames');
+</SCRIPT>
+</body>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+blue {
+ color:blue;
+ }
+ .td {
+  width: 25% ;
+  cursor:pointer;
+  border: 1px solid black
+;
+}
+
+</style>
+<style>
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</html>
