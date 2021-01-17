@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
-CLOR | Companies 
+Clor | Companies 
 </title>
 </head>
 <body>
@@ -84,7 +84,17 @@ function myFunction() {
 <th>Value</th>
 <th># of stock</th>
 <th>CEO</th>
-  <th>Type</th>
+  <div class="w3-container">
+    <button onclick="document.getElementById('id02').style.display='block'" class="w3-button">TYPE</button>
+    <div id="id02" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>This is whether the company has 3 or more investors. If it is Private it only has 2 or less investors</p>
+      </div>
+    </div>
+  </div>
+</div>
 </tr>
 
 <tr>
