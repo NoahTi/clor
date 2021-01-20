@@ -1,2 +1,2 @@
-alert('Play at TKGames at https://noahti.github.io/tkgames');
+alert('Get your Verification ID from the Government from Noah Tillinghast. Order Products across Companies Websites');
 
