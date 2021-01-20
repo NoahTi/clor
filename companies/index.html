@@ -83,7 +83,19 @@ function myFunction() {
 <tr>
 <th>Change</th>
 <th>Name</th>
-<th>Stock Price</th>
+<th>
+    <div class="w3-container">
+    <button onclick="document.getElementById('id03').style.display='block'" class="w3-button">Stock Price</button>
+    <div id="id03" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>The stock price is found out by multiplying the value by 2 and dividing it by the amount of stock.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </th>
 <th>Value</th>
 <th># of stock</th>
 <th>CEO</th>
