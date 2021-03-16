@@ -1,2 +1,2 @@
-alert('Get your Verification ID from the Government from Noah Tillinghast. Order Products across Companies Websites');
+alert('CrownBook 6 - Buy from https://noahti.github.io/crown for 20% off');
 
